@@ -41,7 +41,6 @@ for name, (r0, v0, color, size) in planets.items():
 
     trajectories[name] = np.array(xs), np.array(ys), color, size
 
-
 fig, ax = plt.subplots(figsize=(9, 9))
 fig.patch.set_facecolor("black")
 ax.set_facecolor("black")
@@ -88,7 +87,6 @@ day_text = ax.text(
 )
 
 ax.legend(facecolor="black", edgecolor="white", labelcolor="white")
-
 
 def update(frame):
     artists = []
