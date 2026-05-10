@@ -104,7 +104,6 @@ def update(frame):
 
     return artists
 
-
 animation = FuncAnimation(
     fig,
     update,
